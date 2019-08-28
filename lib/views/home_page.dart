@@ -119,7 +119,7 @@ Widget _showPlayerScoreButtons(Player player) {
         },
       ),
     ]
-  )
+  );
 }
 
 Widget _showAppBar() {
@@ -139,7 +139,7 @@ Widget _showAppBar() {
         ),
       )
     ],
-  )
+  );
 }
 
 
@@ -167,7 +167,7 @@ Widget _showBoardPlayer(Player player) {
       _showPlayerScoreButtons(player)
     ],
    ),
-  )
+  );
 }
 
 void _showAlertDialog(
@@ -193,9 +193,9 @@ void _showAlertDialog(
                 if (onCancel != null) onConfirm();
               }),
           ],
-        )
+        );
       }
-    )
+    );
 }
 
 

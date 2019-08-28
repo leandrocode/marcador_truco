@@ -12,5 +12,3 @@ runApp(
     )
   );
 }
-
-teste integracao vscode

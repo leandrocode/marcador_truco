@@ -128,15 +128,15 @@ Widget _showAppBar() {
     actions: <Widget>[
       IconButton(
         icon: Icon(Icons.refresh),
-        onPressed: ()(
+        onPressed: (){
           _showAlertDialog(
             title: 'Reiniciar',
             message: 'Tem certeza que deseja reiniciar a partida?',
             onConfirm: (){
               _resetScoreAll(true);
             }
-          )
-        ),
+          );
+        },
       )
     ],
   );
